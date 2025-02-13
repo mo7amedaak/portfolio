@@ -1,0 +1,100 @@
+@media(max-width:950px){
+    .inform {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .inform h2 {
+        font-size: 30px;
+    }
+    .About p {
+        width: 80%;
+    }
+    .About {
+        height: 120vh;
+    }
+    .progress-bars1 {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+    }
+    .progress-bars2 {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+    }
+    .progress-bar1, .progress-bar2, .progress-bar3, .progress-bar4 {
+        width: 80%;
+    }
+    .Services {
+        height: 280vh;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+    }
+    .portfolio {
+       height: 450vh; 
+    }
+    .projects {
+        flex-direction: column;
+        justify-content:space-evenly ;
+        align-items: center;
+        width: 100%;
+        flex-wrap: nowrap;
+        
+    }
+    .project {
+        width: 80%;
+        height: 400px;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+    }
+    .contact input {
+        width: 92%;
+    }
+    .social {
+        justify-self: center;
+        margin: 30px 0;
+        width: 50%;
+    }
+    .portfolio .title {
+        margin-top: 100px;
+    }
+    .contact .title{
+        margin-top: 100px;
+    }
+    
+    .headeritems a{
+        display: none;
+    }
+    #menu {
+        display: flex;
+    }
+}
+@media(max-width:620px){
+    .portfolio .title {
+        margin-top: 200px;
+    }
+    .contact .title{
+        margin-top: 200px;
+    }
+    .portfolio{
+        height: 300vh;
+    }
+    .inform {
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+

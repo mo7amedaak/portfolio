@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Zay.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/About.css">
+    <link rel="stylesheet" href="css/Shop.css">
+    <title>Zay Shop - Product Listing Page</title>
+</head>
+<body>
+
+    <nav>
+        <div class="contact">
+            <a href="#" class="email"><i class="fa-solid fa-envelope"></i>m@gmail.com</a>
+            <a href="#" class="phone"><i class="fa-solid fa-phone"></i>01027323362</a>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </nav>
+    <header>
+        <h2><a href="#">Zay</a></h2>
+        <div class="sections">
+            <a href="Zay.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Shop.html">Shop</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+        <div class="nav-icons">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <input type="text" placeholder="Search ..." class="text" id="text">
+        </div>
+        <div id="menu" onclick="Menu()"></div>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+    </header>
+    <div class="shop">
+        <div class="categories">
+            <h1>Categories</h1>
+            <div class="gender">
+                <a href="#" id="parnet1" onclick="Gender()">Gender  <i class="fa fa-fw fa-chevron-circle-down mt-1"></i></a>
+                <a href="#" id="son1">Men</a>
+                <a href="#" id="son2">Women</a>
+            </div>
+            <div class="sale">
+                <a href="#" id="parnet2" onclick="Sale()">Sale  <i class="fa fa-fw fa-chevron-circle-down mt-1"></i></a>
+                <a href="#" id="son3">Sport</a>
+                <a href="#" id="son4">Luxury</a>
+
+            </div>
+            <div class="Product">
+                <a href="#" id="parnet3" onclick="Product()">Product  <i class="fa fa-fw fa-chevron-circle-down mt-1"></i></a>
+                <a href="#" id="son5">Bag</a>
+                <a href="#" id="son6">Sweather</a>
+                <a href="#" id="son7">Sunglass</a>
+
+            </div>
+        </div>
+        <div class="featured">
+            <div class="lnks">
+                <a href="#">All</a>
+                <a href="#">Men's</a>
+                <a href="#">Women's</a>
+            </div>
+            <select name="list" id="list">
+                <option value="#">Featured</option>
+                <option value="#">A to Z</option>
+                <option value="#">Item</option>
+            </select>
+        </div>
+        <div class="cards1">
+            <div class="Card">
+            
+                <div class="hover-icons">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="layer"></div>
+                <img src="img/shop_01.jpg" alt="">
+                <h3>Oupidatat non <br>M/L/X/XL</h3>
+                <div class="stars">
+                    <span>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                    </span>
+                    <h3>$250.00</h3>
+                </div>
+            </div>
+            <div class="Card">
+                <div class="hover-icons">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="layer"></div>
+                <img src="img/shop_02.jpg" alt="">
+                <h3>Oupidatat non <br>M/L/X/XL</h3>
+                <div class="stars">
+                    <span>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                    </span>
+                    <h3>$250.00</h3>
+                </div>
+            </div>
+            <div class="Card">
+                <div class="hover-icons">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="layer"></div>
+                <img src="img/shop_03.jpg" alt="">
+                <h3>Oupidatat non <br>M/L/X/XL</h3>
+                <div class="stars">
+                    <span>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                    </span>
+                    <h3>$250.00</h3>
+                </div>
+            </div>
+        </div>
+        <div class="cards2">
+            <div class="Card">
+                <div class="hover-icons">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="layer"></div>
+                <img src="img/shop_04.jpg" alt="">
+                <h3>Oupidatat non <br>M/L/X/XL</h3>
+                <div class="stars">
+                    <span>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                    </span>
+                    <h3>$250.00</h3>
+                </div>
+            </div>
+            <div class="Card">
+                <div class="hover-icons">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="layer"></div>
+                <img src="img/shop_05.jpg" alt="">
+                <h3>Oupidatat non <br>M/L/X/XL</h3>
+                <div class="stars">
+                    <span>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                    </span>
+                    <h3>$250.00</h3>
+                </div>
+            </div>
+            <div class="Card">
+                <div class="hover-icons">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="layer"></div>
+                <img src="img/shop_06.jpg" alt="">
+                <h3>Oupidatat non <br>M/L/X/XL</h3>
+                <div class="stars">
+                    <span>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                    </span>
+                    <h3>$250.00</h3>
+                </div>
+            </div>
+        </div>
+        <div class="cards3">
+            <div class="Card">
+                <div class="hover-icons">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="layer"></div>
+                <img src="img/shop_07.jpg" alt="">
+                <h3>Oupidatat non <br>M/L/X/XL</h3>
+                <div class="stars">
+                    <span>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                    </span>
+                    <h3>$250.00</h3>
+                </div>
+            </div>
+            <div class="Card">
+                <div class="hover-icons">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="layer"></div>
+                <img src="img/shop_08.jpg" alt="">
+                <h3>Oupidatat non <br>M/L/X/XL</h3>
+                <div class="stars">
+                    <span>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                    </span>
+                    <h3>$250.00</h3>
+                </div>
+            </div>
+            <div class="Card">
+                <div class="hover-icons">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                </div>
+                <div class="layer"></div>
+                <img src="img/shop_09.jpg" alt="">
+                <h3>Oupidatat non <br>M/L/X/XL</h3>
+                <div class="stars">
+                    <span>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-solid fa-star" id="yellow"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                        <i class="fa-regular fa-star" id="empty"></i>
+                    </span>
+                    <h3>$250.00</h3>
+                </div>
+            </div>
+        </div>
+        <div class="pages">
+            <div class="page1"><a href="#">1</a></div>
+            <div class="page2"><a href="#">2</a></div>
+            <div class="page3"><a href="#">3</a></div>
+    
+            
+        </div>
+        
+
+    </div>
+    
+
+
+
+
+
+
+
+
+    <div class="our-brands">
+        <div class="title">
+            <h1>Our Brands</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="brands">
+            <a href="#"><img src="img/brand_01.png" alt=""></a>
+            <a href="#"><img src="img/brand_02.png" alt=""></a>
+            <a href="#"><img src="img/brand_03.png" alt=""></a>
+            <a href="#"><img src="img/brand_04.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="zay-shop">
+            <h1>Zay Shop</h1>
+            <hr>
+            <p><i class="fa-solid fa-location-dot"></i> 123 Consectetur at ligula 10660</p>
+            <a href="#"><i class="fa-solid fa-phone"></i>  010-020-0340</a>
+            <a href="#"><i class="fa-solid fa-envelope"></i>  info@company.com</a>
+        </div>
+        <div class="products">
+            <h1>Products</h1>
+            <hr>
+            <a href="#">Luxury</a>
+            <a href="#">Sport Wear</a>
+            <a href="#">Men's Shoes</a>
+            <a href="#">Women's Shoes</a>
+            <a href="#">Popular Dress</a>
+            <a href="#">Gym Accessories</a>
+            <a href="#">Sport Shoes</a>
+        </div>
+        <div class="info">
+            <h1>Further Info</h1>
+            <hr>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Shop Locations</a>
+            <a href="#">FAQs</a>
+            <a href="#">Contact</a>
+        </div> 
+        <hr class="end">
+        <div class="search">
+            <span>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </span>
+            <div class="subscribe">
+                <input type="email" placeholder="Email address">
+                <button>Suscribe</button>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> 2021 Company Name | Designed by <a href="#">TemplateMo</a></p>            
+        </div>
+    </div>
+    <script src="Zay.js"></script>
+</body>
+</html>

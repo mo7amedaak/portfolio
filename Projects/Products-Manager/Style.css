@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.curds {
+    width: 80%;
+    margin: auto;
+}
+.head {
+    width: 100%;
+    text-align: center;
+    margin: 40px 4px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+input {
+    background-color: rgb(17, 15, 15);
+    color: #fff;
+    border: none;
+    height: 40px;
+    margin: 5px;
+    padding: 0 4px ;
+    border-radius: 4px;
+    width: 100%;
+    
+
+}
+.cost input {
+    width: 20%;
+
+}
+
+small {
+    width: 20%;
+    background-color: #f10;
+    padding: 5px;
+    border-radius: 4px;
+}
+small::before {
+    content: 'Total : ';
+}
+input:focus {
+    transform: scale(1.1);
+}
+.output {
+    margin: auto;
+}
+button {
+    background-color: rgb(23, 2, 36);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 100%;
+    margin: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.searchbtns button {
+    width: 45%;
+}
+.searchbtns {
+    display: flex;
+    justify-content: space-between;
+}
+button:hover {
+    background-color: rgb(93, 24, 102);
+    letter-spacing: 1px;
+    transform: scale(1.05);
+}
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+th {
+    text-transform: uppercase;
+}
+table button {
+    width: 80%;
+}

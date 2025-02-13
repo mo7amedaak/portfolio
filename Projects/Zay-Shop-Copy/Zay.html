@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zay Shop eCommere</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo.css"> 
+    <link rel="stylesheet" href="css/Zay.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="contact">
+            <a href="#" class="email"><i class="fa-solid fa-envelope"></i>m@gmail.com</a>
+            <a href="#" class="phone"><i class="fa-solid fa-phone"></i>01027323362</a>
+        </div>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </nav>
+    <header id="header">
+        <h2><a href="#">Zay</a></h2>
+        <div class="sections">
+            <a href="Zay.html" id="Home">Home</a>
+            <a href="About.html" id="About">About</a>
+            <a href="Shop.html" id="Shop">Shop</a>
+            <a href="Contact.html" id="Contact">Contact</a>
+        </div>
+        <div class="nav-icons" id="navicons">
+            <a href="#" class="txt-search"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <input type="text" placeholder="Search ..." class="text" id="text">
+        </div>
+        <div id="menu" onclick="Menu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+    </header>
+    <div class="slider">
+        <div class="slide1" id="slide1">
+            <div class="slider-txt">
+                <h1>Zay eCommerce</h1>
+                <h2>Tiny and Perfect eCommerce Template</h2>
+                <p>Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). This template is 100% free provided by <a href="#">TemplateMo</a> website. Image credits go to <a href="#">Freepik</a> <a href="#">Stories</a>, <a href="#">Unsplash</a> and <a href="#">Icons 8</a> .</p>
+            </div>
+            <img src="img/banner_img_01.jpg" alt="">
+        </div>
+        <div class="slide2" id="slide2">
+            <div class="slider-txt">
+                <h1>Proident occaecat</h1>
+                <h2>Aliquip ex ea commodo consequat</h2>
+                <p>You are permitted to use this Zay CSS template for your commercial websites You are not permitted to re-distribute the template ZIP file in any kind of template collection websites.</p>
+            </div>
+            <img src="img/banner_img_02.jpg" alt="">
+        </div>
+        <div class="slide3" id="slide3">
+            <div class="slider-txt">
+                <h1>Repr in voluptate</h1>
+                <h2>Ullamco laboris nisi ut</h2>
+                <p>We bring you 100% free CSS templates for your websites. If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.</p>
+            </div>
+            <img src="img/banner_img_03.jpg" alt="">
+        </div>    
+        <div class="arrows">
+            <a href="#" onclick="SliderLeft()" class="arrow1"><i class="fas fa-chevron-left"></i></a>
+            <a href="#" onclick="SliderRight()" class="arrow2"><i class="fas fa-chevron-right"></i></a>
+        </div>
+
+    </div>
+    
+   <!--<div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="img/banner_img_01.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1 text-success"><b>Zay</b> eCommerce</h1>
+                                <h3 class="h2">Tiny and Perfect eCommerce Template</h3>
+                                <p>
+                                    Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
+                                    This template is 100% free provided by <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">TemplateMo</a> website. 
+                                    Image credits go to <a rel="sponsored" class="text-success" href="https://stories.freepik.com/" target="_blank">Freepik Stories</a>,
+                                    <a rel="sponsored" class="text-success" href="https://unsplash.com/" target="_blank">Unsplash</a> and
+                                    <a rel="sponsored" class="text-success" href="https://icons8.com/" target="_blank">Icons 8</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="img/banner_img_02.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Proident occaecat</h1>
+                                <h3 class="h2">Aliquip ex ea commodo consequat</h3>
+                                <p>
+                                    You are permitted to use this Zay CSS template for your commercial websites. 
+                                    You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="img/banner_img_03.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Repr in voluptate</h1>
+                                <h3 class="h2">Ullamco laboris nisi ut </h3>
+                                <p>
+                                    We bring you 100% free CSS templates for your websites. 
+                                    If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+-->
+    <section class="sec1">
+        <div class="sec1-title">
+            <h2>Categories Of The Month</h2>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <br>officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="sec1-items">
+            <div class="itm">
+                <img src="img/category_img_01.jpg" alt="category_img_01">
+                <h3>Watches</h3>
+                <button>Go Shop</button>
+            </div>
+            <div class="itm">
+                <img src="img/category_img_02.jpg" alt="category_img_02">
+                <h3>Shoes</h3>
+                <button>Go Shop</button>
+            </div>
+            <div class="itm">
+                <img src="img/category_img_03.jpg" alt="category_img_03">
+                <h3>Accessories</h3>
+                <button>Go Shop</button>
+            </div>
+        </div>
+    </section>
+    <section class="sec2">
+        <div class="sec2-title">
+            <h1>Featured Product</h1>
+            <p>Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+        </div>
+        <div class="sec2-items">
+            <div class="product">
+                <img src="img/feature_prod_01.jpg" alt="feature_prod_01">
+                <span>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-regular fa-star" id="empty"></i>
+                    <i class="fa-regular fa-star" id="empty"></i>
+                </span>
+                <h2>Gym Weight</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem corporis perferendis officia unde voluptatum accusantium modi quam iusto laudantium maiores!</p>
+            </div>
+            <div class="product">
+                <img src="img/feature_prod_02.jpg" alt="feature_prod_02">
+                <span>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-regular fa-star" id="empty"></i>
+                    <i class="fa-regular fa-star" id="empty"></i>
+                </span>
+                <h2>Cloud Nike Shoes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem corporis perferendis officia unde voluptatum accusantium modi quam iusto laudantium maiores!</p>
+            </div>
+            <div class="product">
+                <img src="img/feature_prod_03.jpg" alt="feature_prod_03">
+                <span>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                    <i class="fa-solid fa-star" id="yellow"></i>
+                </span>
+                <h2>Summer Addides Shoes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem corporis perferendis officia unde voluptatum accusantium modi quam iusto laudantium maiores!</p>
+            </div>
+        </div>
+    </section>
+    <div class="footer" id="footer">
+        <div class="zay-shop">
+            <h1>Zay Shop</h1>
+            <hr>
+            <p><i class="fa-solid fa-location-dot"></i> 123 Consectetur at ligula 10660</p>
+            <a href="#"><i class="fa-solid fa-phone"></i>  010-020-0340</a>
+            <a href="#"><i class="fa-solid fa-envelope"></i>  info@company.com</a>
+        </div>
+        <div class="products">
+            <h1>Products</h1>
+            <hr>
+            <a href="#">Luxury</a>
+            <a href="#">Sport Wear</a>
+            <a href="#">Men's Shoes</a>
+            <a href="#">Women's Shoes</a>
+            <a href="#">Popular Dress</a>
+            <a href="#">Gym Accessories</a>
+            <a href="#">Sport Shoes</a>
+        </div>
+        <div class="info">
+            <h1>Further Info</h1>
+            <hr>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Shop Locations</a>
+            <a href="#">FAQs</a>
+            <a href="#">Contact</a>
+        </div> 
+        <hr class="end">
+        <div class="search">
+            <span>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </span>
+            <div class="subscribe">
+                <input type="email" placeholder="Email address">
+                <button>Suscribe</button>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> 2021 Company Name | Designed by <a href="#">TemplateMo</a></p>            
+        </div>
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-1.11.0.min.js"></script>
+    <script src="JS/jquery-migrate-1.2.1.min.js"></script>
+    <script src="Zay.js"></script>
+   
+</body>
+</html>
